@@ -3,7 +3,10 @@ package com.kedi.security.springsecurity.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.kedi.security.springsecurity.entity.Product;
 import lombok.Data;
+
+import java.util.List;
 
 /**
  * Collects a request and returns a response.
